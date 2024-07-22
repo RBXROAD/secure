@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "", HidePremium = false, IntroText = "Silkroad.onion", SaveConfig = true, ConfigFolder = "Silk"})
+local Window = OrionLib:MakeWindow({Name = "private.lol", HidePremium = false, IntroText = "private.lol", SaveConfig = true, ConfigFolder = "privatehub"})
 
 local ff2 = Window:MakeTab({
 	Name = "Football Fusion 2",
