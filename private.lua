@@ -2328,7 +2328,7 @@ end)
   	end    
 })
 
-local Setings = Window:MakeTab({
+local Settings = Window:MakeTab({
 	Name = "Settings",
 	Icon = "rbxassetid://18600147371",
 	PremiumOnly = false
