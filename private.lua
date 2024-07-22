@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "pineapple.lol", HidePremium = false, IntroText = "pineapple.lol", SaveConfig = true, ConfigFolder = "private"})
+local Window = OrionLib:MakeWindow({Name = "getpineapple.bar", HidePremium = false, IntroText = "pineapple.bar", SaveConfig = true, ConfigFolder = "private"})
 
 local Home = Window:MakeTab({
 	Name = "Home",
@@ -8,6 +8,7 @@ local Home = Window:MakeTab({
 })
 
 Home:AddParagraph("Welcome!","👋 Welcome to our script please join (.gg/https://discord.gg/mzRdbJQYeU)")
+Home:AddParagraph("Be Safe!","The official Script is located at (https://getpineapple.bar)")
 
 local ff2 = Window:MakeTab({
 	Name = "Football Fusion 2",
