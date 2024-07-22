@@ -7,7 +7,7 @@ local Home = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Home:AddParagraph("Welcome","Welcome to our script please join (.gg/https://discord.gg/mzRdbJQYeU)")
+Home:AddParagraph("Welcome!","👋 Welcome to our script please join (.gg/https://discord.gg/mzRdbJQYeU)")
 
 local ff2 = Window:MakeTab({
 	Name = "Football Fusion 2",
