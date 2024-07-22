@@ -380,7 +380,7 @@ local Setings = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Setings:AddButton({
+Settings:AddButton({
 	Name = "Destroy GUI",
 	Callback = function()
         OrionLib:Destroy()
