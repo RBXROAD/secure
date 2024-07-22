@@ -1,5 +1,13 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "", HidePremium = false, IntroText = "Silkroad.onion", SaveConfig = true, ConfigFolder = "Silk"})
+local Window = OrionLib:MakeWindow({Name = "pineapple.lol", HidePremium = false, IntroText = "pineapple.lol", SaveConfig = true, ConfigFolder = "private"})
+
+local Home = Window:MakeTab({
+	Name = "Home",
+	Icon = "rbxassetid://18600147398",
+	PremiumOnly = false
+})
+
+Home:AddParagraph("Welcome","Welcome to our script please join (.gg/https://discord.gg/mzRdbJQYeU)")
 
 local ff2 = Window:MakeTab({
 	Name = "Football Fusion 2",
@@ -361,7 +369,7 @@ PS99:AddButton({
 })
 
 local uni = Window:MakeTab({
-	Name = "universal",
+	Name = "Universal",
 	Icon = "rbxassetid://18600147398",
 	PremiumOnly = false
 })
