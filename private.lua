@@ -7,7 +7,7 @@ local Home = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Home:AddParagraph("Welcome!","👋 Welcome to our script please join (.gg/https://discord.gg/mzRdbJQYeU)")
+Home:AddParagraph("Welcome!","👋 Welcome to our script please join (.gg/mzRdbJQYeU)")
 Home:AddParagraph("Be Safe!","The official Script is located at (https://getpineapple.bar)")
 
 local ff2 = Window:MakeTab({
